@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|C:\\DEV\\Cpp\\HelloWorld\\HelloWorld\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|C:\\DEV\\Cpp\\HelloWorld\\HelloWorld\\HelloWorld.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\HelloWorld.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +14,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HelloWorld.cpp",
-              "DocumentMoniker": "C:\\DEV\\Cpp\\HelloWorld\\HelloWorld\\HelloWorld.cpp",
-              "RelativeDocumentMoniker": "HelloWorld\\HelloWorld.cpp",
-              "ToolTip": "C:\\DEV\\Cpp\\HelloWorld\\HelloWorld\\HelloWorld.cpp*",
-              "RelativeToolTip": "HelloWorld\\HelloWorld.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-25T18:12:34.505Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "test.cpp",
               "DocumentMoniker": "C:\\DEV\\Cpp\\HelloWorld\\HelloWorld\\test.cpp",
               "RelativeDocumentMoniker": "HelloWorld\\test.cpp",
-              "ToolTip": "C:\\DEV\\Cpp\\HelloWorld\\HelloWorld\\test.cpp",
-              "RelativeToolTip": "HelloWorld\\test.cpp",
+              "ToolTip": "C:\\DEV\\Cpp\\HelloWorld\\HelloWorld\\test.cpp*",
+              "RelativeToolTip": "HelloWorld\\test.cpp*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-25T18:10:43.944Z",
