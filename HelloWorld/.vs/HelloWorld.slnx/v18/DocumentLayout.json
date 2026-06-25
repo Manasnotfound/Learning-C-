@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\DEV\\Cpp\\HelloWorld\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|C:\\DEV\\Cpp\\HelloWorld\\HelloWorld\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|C:\\DEV\\Cpp\\HelloWorld\\HelloWorld\\test2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\test2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "test.cpp",
-              "DocumentMoniker": "C:\\DEV\\Cpp\\HelloWorld\\HelloWorld\\test.cpp",
-              "RelativeDocumentMoniker": "HelloWorld\\test.cpp",
-              "ToolTip": "C:\\DEV\\Cpp\\HelloWorld\\HelloWorld\\test.cpp",
-              "RelativeToolTip": "HelloWorld\\test.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Title": "test2.cpp",
+              "DocumentMoniker": "C:\\DEV\\Cpp\\HelloWorld\\HelloWorld\\test2.cpp",
+              "RelativeDocumentMoniker": "HelloWorld\\test2.cpp",
+              "ToolTip": "C:\\DEV\\Cpp\\HelloWorld\\HelloWorld\\test2.cpp",
+              "RelativeToolTip": "HelloWorld\\test2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-25T18:10:43.944Z",
+              "WhenOpened": "2026-06-25T18:23:11.93Z",
               "EditorCaption": ""
             }
           ]
