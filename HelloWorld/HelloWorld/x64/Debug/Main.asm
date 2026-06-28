@@ -142,12 +142,17 @@ PUBLIC	?__empty_global_delete@@YAXPEAX_K@Z		; __empty_global_delete
 PUBLIC	?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z ; __empty_global_delete
 PUBLIC	?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z ; __empty_global_delete
 PUBLIC	main
+PUBLIC	??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z ; std::endl<char,std::char_traits<char> >
 PUBLIC	__JustMyCode_Default
-PUBLIC	??_C@_0N@GCDOMLDM@Hello?5World?$CB@		; `string'
+EXTRN	__imp_?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z:PROC
+EXTRN	__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z:PROC
+EXTRN	__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z:PROC
+EXTRN	__imp_?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z:PROC
+EXTRN	__imp_?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ:PROC
 EXTRN	__imp_?get@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAHXZ:PROC
-EXTRN	?Log@@YAXPEBD@Z:PROC				; Log
 EXTRN	__CheckForDebuggerJustMyCode:PROC
 EXTRN	__imp_?cin@std@@3V?$basic_istream@DU?$char_traits@D@std@@@1@A:BYTE
+EXTRN	__imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A:BYTE
 ;	COMDAT pdata
 pdata	SEGMENT
 $pdata$?__empty_global_delete@@YAXPEAX@Z DD imagerel $LN4
@@ -175,17 +180,25 @@ pdata	ENDS
 ;	COMDAT pdata
 pdata	SEGMENT
 $pdata$main DD	imagerel $LN3
-	DD	imagerel $LN3+59
+	DD	imagerel $LN3+90
 	DD	imagerel $unwind$main
 pdata	ENDS
-;	COMDAT ??_C@_0N@GCDOMLDM@Hello?5World?$CB@
-CONST	SEGMENT
-??_C@_0N@GCDOMLDM@Hello?5World?$CB@ DB 'Hello World!', 00H ; `string'
-CONST	ENDS
+;	COMDAT pdata
+pdata	SEGMENT
+$pdata$??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z DD imagerel $LN3
+	DD	imagerel $LN3+100
+	DD	imagerel $unwind$??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+pdata	ENDS
+;	COMDAT xdata
+xdata	SEGMENT
+$unwind$??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z DD 025030f01H
+	DD	0d20a230fH
+	DD	05006H
+xdata	ENDS
 ;	COMDAT xdata
 xdata	SEGMENT
 $unwind$main DD	025030b01H
-	DD	0b206230bH
+	DD	0d206230bH
 	DD	05002H
 xdata	ENDS
 ;	COMDAT xdata
@@ -218,7 +231,7 @@ _TEXT	SEGMENT
 __formal$ = 80
 ?__empty_global_delete@@YAXPEAX@Z PROC			; __empty_global_delete, COMDAT
 ; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Main.cpp
-; Line 11
+; Line 9
 $LN4:
 	mov	QWORD PTR [rsp+8], rcx
 	push	rbp
@@ -239,7 +252,7 @@ __formal$ = 80
 __formal$ = 88
 ?__empty_global_delete@@YAXPEAX_K@Z PROC		; __empty_global_delete, COMDAT
 ; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Main.cpp
-; Line 11
+; Line 9
 $LN4:
 	mov	QWORD PTR [rsp+16], rdx
 	mov	QWORD PTR [rsp+8], rcx
@@ -261,7 +274,7 @@ __formal$ = 80
 __formal$ = 88
 ?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z PROC ; __empty_global_delete, COMDAT
 ; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Main.cpp
-; Line 11
+; Line 9
 $LN4:
 	mov	QWORD PTR [rsp+16], rdx
 	mov	QWORD PTR [rsp+8], rcx
@@ -284,7 +297,7 @@ __formal$ = 88
 __formal$ = 96
 ?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z PROC ; __empty_global_delete, COMDAT
 ; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Main.cpp
-; Line 11
+; Line 9
 $LN4:
 	mov	QWORD PTR [rsp+24], r8
 	mov	QWORD PTR [rsp+16], rdx
@@ -303,30 +316,82 @@ _TEXT	ENDS
 ; Function compile flags: /Odtp /ZI
 ;	COMDAT main
 _TEXT	SEGMENT
+variable$ = 0
+tv71 = 72
 main	PROC						; COMDAT
 ; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Main.cpp
-; Line 7
+; Line 4
 $LN3:
 	push	rbp
-	sub	rsp, 96					; 00000060H
+	sub	rsp, 112				; 00000070H
 	lea	rbp, QWORD PTR [rsp+32]
 	lea	rcx, OFFSET FLAT:__69CAA4C4_Main@cpp
 	call	__CheckForDebuggerJustMyCode
 	npad	1
-; Line 8
-	lea	rcx, OFFSET FLAT:??_C@_0N@GCDOMLDM@Hello?5World?$CB@
-	call	?Log@@YAXPEBD@Z				; Log
+; Line 5
+	mov	BYTE PTR variable$[rbp], 0
+; Line 6
+	mov	edx, 4
+	mov	rcx, QWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+	call	QWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z
+	mov	QWORD PTR tv71[rbp], rax
+	lea	rdx, OFFSET FLAT:??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z ; std::endl<char,std::char_traits<char> >
+	mov	rcx, QWORD PTR tv71[rbp]
+	call	QWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
 	npad	1
-; Line 9
+; Line 7
 	mov	rcx, QWORD PTR __imp_?cin@std@@3V?$basic_istream@DU?$char_traits@D@std@@@1@A
 	call	QWORD PTR __imp_?get@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAHXZ
 	npad	1
-; Line 10
+; Line 8
 	xor	eax, eax
-	lea	rsp, QWORD PTR [rbp+64]
+	lea	rsp, QWORD PTR [rbp+80]
 	pop	rbp
 	ret	0
 main	ENDP
+_TEXT	ENDS
+; Function compile flags: /Odtp /ZI
+;	COMDAT ??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+_TEXT	SEGMENT
+tv80 = 64
+_Ostr$ = 96
+??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z PROC ; std::endl<char,std::char_traits<char> >, COMDAT
+; File C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_ostream.hpp
+; Line 1008
+$LN3:
+	mov	QWORD PTR [rsp+8], rcx
+	push	rbp
+	sub	rsp, 112				; 00000070H
+	lea	rbp, QWORD PTR [rsp+32]
+	lea	rcx, OFFSET FLAT:__24703A34___msvc_ostream@hpp
+	call	__CheckForDebuggerJustMyCode
+	npad	1
+; Line 1009
+	mov	rax, QWORD PTR _Ostr$[rbp]
+	mov	rax, QWORD PTR [rax]
+	movsxd	rax, DWORD PTR [rax+4]
+	mov	rcx, QWORD PTR _Ostr$[rbp]
+	add	rcx, rax
+	mov	rax, rcx
+	mov	QWORD PTR tv80[rbp], rax
+	mov	dl, 10
+	mov	rcx, QWORD PTR tv80[rbp]
+	call	QWORD PTR __imp_?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+	movzx	edx, al
+	mov	rcx, QWORD PTR _Ostr$[rbp]
+	call	QWORD PTR __imp_?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
+	npad	1
+; Line 1010
+	mov	rcx, QWORD PTR _Ostr$[rbp]
+	call	QWORD PTR __imp_?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+	npad	1
+; Line 1011
+	mov	rax, QWORD PTR _Ostr$[rbp]
+; Line 1012
+	lea	rsp, QWORD PTR [rbp+80]
+	pop	rbp
+	ret	0
+??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z ENDP ; std::endl<char,std::char_traits<char> >
 _TEXT	ENDS
 ; Function compile flags: /Odt
 ;	COMDAT __JustMyCode_Default

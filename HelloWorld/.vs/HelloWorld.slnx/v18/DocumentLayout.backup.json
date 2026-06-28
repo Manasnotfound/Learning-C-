@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Math.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\Math.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Math.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\Math.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -42,12 +42,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Math.cpp",
               "DocumentMoniker": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Math.cpp",
               "RelativeDocumentMoniker": "HelloWorld\\Math.cpp",
-              "ToolTip": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Math.cpp*",
-              "RelativeToolTip": "HelloWorld\\Math.cpp*",
+              "ToolTip": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Math.cpp",
+              "RelativeToolTip": "HelloWorld\\Math.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-27T16:39:24.5Z",
@@ -55,15 +55,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Main.cpp",
               "RelativeDocumentMoniker": "HelloWorld\\Main.cpp",
-              "ToolTip": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Main.cpp",
-              "RelativeToolTip": "HelloWorld\\Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Main.cpp*",
+              "RelativeToolTip": "HelloWorld\\Main.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-25T18:23:11.93Z"
+              "WhenOpened": "2026-06-25T18:23:11.93Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
