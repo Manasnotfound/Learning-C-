@@ -15,6 +15,6 @@ int main()
 {
 	MultiplyAndLog(5, 10);
 	MultiplyAndLog(3, 7);
-
+	MultiplyAndLog(5, 5);
     std::cin.get();
 }
