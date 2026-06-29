@@ -1,20 +1,14 @@
 #include <iostream>
+#include "Log.h"
 
-int Multily(int a, int b)
+void Log(const char* message)
 {
-	return a * b;
-}
-
-void MultiplyAndLog(int a, int b)
-{
-	int result = Multily(a, b);
-	std::cout << "The result of multiplying " << a << " and " << b << " is: " << result << std::endl;
+	std::cout << message << std::endl;
 }
 
 int main()
 {
-	MultiplyAndLog(5, 10);
-	MultiplyAndLog(3, 7);
-	MultiplyAndLog(5, 5);
+	InitLog();
+	Log("Hello, World!");
     std::cin.get();
 }
