@@ -1,6 +1,14 @@
+#include "common.h"
 #include "Log.h"
+#include <iostream>
 
 void InitLog()
 {
-	std::cout << "Log initialized." << std::endl;
+	Log("Log initialized.");
+}
+
+	
+void Log(const char* message)
+{
+	std::cout << message << std::endl;
 }
