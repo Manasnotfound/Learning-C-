@@ -50,8 +50,7 @@
               "RelativeToolTip": "HelloWorld\\Math.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-27T16:39:24.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-27T16:39:24.5Z"
             },
             {
               "$type": "Document",
@@ -59,9 +58,9 @@
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Main.cpp",
               "RelativeDocumentMoniker": "HelloWorld\\Main.cpp",
-              "ToolTip": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Main.cpp*",
-              "RelativeToolTip": "HelloWorld\\Main.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Main.cpp",
+              "RelativeToolTip": "HelloWorld\\Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-25T18:23:11.93Z",
               "EditorCaption": ""
