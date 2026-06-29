@@ -17,12 +17,17 @@ __5C2A3A1B_concurrencysal@h DB 01H
 __C0F69881_sal@h DB 01H
 __78278261_vadefs@h DB 01H
 __B7ABD719_vcruntime@h DB 01H
+__735960E1_corecrt@h DB 01H
+__211DB995_corecrt_malloc@h DB 01H
+__955456CD_stddef@h DB 01H
+__99AED4FB_corecrt_search@h DB 01H
+__8B813BF6_corecrt_wstdlib@h DB 01H
+__BE5CC238_limits@h DB 01H
+__E8FB0A68_stdlib@h DB 01H
 __53769204_xkeycheck@h DB 01H
 __A0070F5A_yvals_core@h DB 01H
-__735960E1_corecrt@h DB 01H
 __CB8A55F3_float@h DB 01H
 __DC7B723E_cfloat DB 01H
-__BE5CC238_limits@h DB 01H
 __C5D0737A_climits DB 01H
 __632B5AB7___msvc_doom_core@hpp DB 01H
 __E737CACB_vcruntime_new@h DB 01H
@@ -33,11 +38,6 @@ __2356D53E_use_ansi@h DB 01H
 __F77FE737_yvals@h DB 01H
 __1D9A7FA2_corecrt_math@h DB 01H
 __2E93F1C0_math@h DB 01H
-__211DB995_corecrt_malloc@h DB 01H
-__955456CD_stddef@h DB 01H
-__99AED4FB_corecrt_search@h DB 01H
-__8B813BF6_corecrt_wstdlib@h DB 01H
-__E8FB0A68_stdlib@h DB 01H
 __413F5188_cstdlib DB 01H
 __D858E777_xtr1common DB 01H
 __231E93D5_intrin0@inl@h DB 01H
@@ -512,7 +512,7 @@ _TEXT	SEGMENT
 __formal$ = 80
 ?__empty_global_delete@@YAXPEAX@Z PROC			; __empty_global_delete, COMDAT
 ; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Log.cpp
-; Line 15
+; Line 17
 $LN4:
 	mov	QWORD PTR [rsp+8], rcx
 	push	rbp
@@ -533,7 +533,7 @@ __formal$ = 80
 __formal$ = 88
 ?__empty_global_delete@@YAXPEAX_K@Z PROC		; __empty_global_delete, COMDAT
 ; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Log.cpp
-; Line 15
+; Line 17
 $LN4:
 	mov	QWORD PTR [rsp+16], rdx
 	mov	QWORD PTR [rsp+8], rcx
@@ -555,7 +555,7 @@ __formal$ = 80
 __formal$ = 88
 ?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z PROC ; __empty_global_delete, COMDAT
 ; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Log.cpp
-; Line 15
+; Line 17
 $LN4:
 	mov	QWORD PTR [rsp+16], rdx
 	mov	QWORD PTR [rsp+8], rcx
@@ -578,7 +578,7 @@ __formal$ = 88
 __formal$ = 96
 ?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z PROC ; __empty_global_delete, COMDAT
 ; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Log.cpp
-; Line 15
+; Line 17
 $LN4:
 	mov	QWORD PTR [rsp+24], r8
 	mov	QWORD PTR [rsp+16], rdx
@@ -599,7 +599,7 @@ _TEXT	ENDS
 _TEXT	SEGMENT
 ?InitLog@@YAXXZ PROC					; InitLog, COMDAT
 ; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Log.cpp
-; Line 6
+; Line 8
 $LN3:
 	push	rbp
 	sub	rsp, 96					; 00000060H
@@ -607,11 +607,11 @@ $LN3:
 	lea	rcx, OFFSET FLAT:__6D92E97A_Log@cpp
 	call	__CheckForDebuggerJustMyCode
 	npad	1
-; Line 7
+; Line 9
 	lea	rcx, OFFSET FLAT:??_C@_0BB@LFKPEDNC@Log?5initialized?4@
 	call	?Log@@YAXPEBD@Z				; Log
 	npad	1
-; Line 8
+; Line 10
 	lea	rsp, QWORD PTR [rbp+64]
 	pop	rbp
 	ret	0
@@ -624,7 +624,7 @@ tv71 = 64
 message$ = 96
 ?Log@@YAXPEBD@Z PROC					; Log, COMDAT
 ; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Log.cpp
-; Line 12
+; Line 14
 $LN3:
 	mov	QWORD PTR [rsp+8], rcx
 	push	rbp
@@ -633,7 +633,7 @@ $LN3:
 	lea	rcx, OFFSET FLAT:__6D92E97A_Log@cpp
 	call	__CheckForDebuggerJustMyCode
 	npad	1
-; Line 13
+; Line 15
 	mov	rdx, QWORD PTR message$[rbp]
 	mov	rcx, QWORD PTR __imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
 	call	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z ; std::operator<<<std::char_traits<char> >
@@ -642,7 +642,7 @@ $LN3:
 	mov	rcx, QWORD PTR tv71[rbp]
 	call	QWORD PTR __imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
 	npad	1
-; Line 14
+; Line 16
 	lea	rsp, QWORD PTR [rbp+80]
 	pop	rbp
 	ret	0

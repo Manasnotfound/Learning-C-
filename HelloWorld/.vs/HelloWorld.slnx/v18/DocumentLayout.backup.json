@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\Log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\Log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\Log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Math.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\Math.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30CD5331-C82D-43F7-A0B6-CF965BA644EA}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Common.h",
               "DocumentMoniker": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Common.h",
               "RelativeDocumentMoniker": "HelloWorld\\Common.h",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Log.h",
               "DocumentMoniker": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Log.h",
               "RelativeDocumentMoniker": "HelloWorld\\Log.h",
@@ -55,8 +55,7 @@
               "RelativeToolTip": "HelloWorld\\Log.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-29T13:40:22.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-29T13:40:22.89Z"
             },
             {
               "$type": "Document",
@@ -66,27 +65,26 @@
               "RelativeDocumentMoniker": "HelloWorld\\Log.cpp",
               "ToolTip": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Log.cpp",
               "RelativeToolTip": "HelloWorld\\Log.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-25T17:15:38.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Main.cpp",
               "RelativeDocumentMoniker": "HelloWorld\\Main.cpp",
               "ToolTip": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Main.cpp",
               "RelativeToolTip": "HelloWorld\\Main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-25T18:23:11.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-25T18:23:11.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Math.cpp",
               "DocumentMoniker": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Math.cpp",
               "RelativeDocumentMoniker": "HelloWorld\\Math.cpp",
@@ -94,8 +92,7 @@
               "RelativeToolTip": "HelloWorld\\Math.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-27T16:39:24.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-27T16:39:24.5Z"
             }
           ]
         }
