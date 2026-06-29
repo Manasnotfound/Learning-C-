@@ -135,12 +135,14 @@ __24703A34___msvc_ostream@hpp DB 01H
 __C78AAA93_istream DB 01H
 __A45A9FA9_ostream DB 01H
 __0E8BEEE5_iostream DB 01H
+__45B1EE5B_Log@h DB 01H
 __69CAA4C4_Main@cpp DB 01H
 msvcjmc	ENDS
 PUBLIC	?__empty_global_delete@@YAXPEAX@Z		; __empty_global_delete
 PUBLIC	?__empty_global_delete@@YAXPEAX_K@Z		; __empty_global_delete
 PUBLIC	?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z ; __empty_global_delete
 PUBLIC	?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z ; __empty_global_delete
+<<<<<<< HEAD
 PUBLIC	?length@?$_Narrow_char_traits@DH@std@@SA_KQEBD@Z ; std::_Narrow_char_traits<char,int>::length
 PUBLIC	?eq_int_type@?$_Narrow_char_traits@DH@std@@SA_NHH@Z ; std::_Narrow_char_traits<char,int>::eq_int_type
 PUBLIC	?eof@?$_Narrow_char_traits@DH@std@@SAHXZ	; std::_Narrow_char_traits<char,int>::eof
@@ -176,15 +178,25 @@ EXTRN	__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01
 EXTRN	__imp_??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z:PROC
 EXTRN	__imp_?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z:PROC
 EXTRN	__imp_?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ:PROC
+=======
+PUBLIC	main
+PUBLIC	__JustMyCode_Default
+PUBLIC	??_C@_0O@KLMCIIGF@Hello?0?5World?$CB@		; `string'
+>>>>>>> c8724979aa1df6a72e97911561168cba64728c6d
 EXTRN	__imp_?get@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAHXZ:PROC
+EXTRN	?InitLog@@YAXXZ:PROC				; InitLog
+EXTRN	?Log@@YAXPEBD@Z:PROC				; Log
 EXTRN	__CheckForDebuggerJustMyCode:PROC
 EXTRN	__CxxFrameHandler4:PROC
 EXTRN	__GSHandlerCheck_EH4:PROC
 EXTRN	__security_check_cookie:PROC
 EXTRN	strlen:PROC
 EXTRN	__imp_?cin@std@@3V?$basic_istream@DU?$char_traits@D@std@@@1@A:BYTE
+<<<<<<< HEAD
 EXTRN	__imp_?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A:BYTE
 EXTRN	__security_cookie:QWORD
+=======
+>>>>>>> c8724979aa1df6a72e97911561168cba64728c6d
 ;	COMDAT pdata
 pdata	SEGMENT
 $pdata$?__empty_global_delete@@YAXPEAX@Z DD imagerel $LN4
@@ -211,6 +223,7 @@ $pdata$?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z DD imagerel $LN4
 pdata	ENDS
 ;	COMDAT pdata
 pdata	SEGMENT
+<<<<<<< HEAD
 $pdata$?length@?$_Narrow_char_traits@DH@std@@SA_KQEBD@Z DD imagerel $LN4
 	DD	imagerel $LN4+43
 	DD	imagerel $unwind$?length@?$_Narrow_char_traits@DH@std@@SA_KQEBD@Z
@@ -492,6 +505,19 @@ xdata	ENDS
 ;	COMDAT xdata
 xdata	SEGMENT
 $unwind$?eof@?$_Narrow_char_traits@DH@std@@SAHXZ DD 025030b01H
+=======
+$pdata$main DD	imagerel $LN3
+	DD	imagerel $LN3+65
+	DD	imagerel $unwind$main
+pdata	ENDS
+;	COMDAT ??_C@_0O@KLMCIIGF@Hello?0?5World?$CB@
+CONST	SEGMENT
+??_C@_0O@KLMCIIGF@Hello?0?5World?$CB@ DB 'Hello, World!', 00H ; `string'
+CONST	ENDS
+;	COMDAT xdata
+xdata	SEGMENT
+$unwind$main DD	025030b01H
+>>>>>>> c8724979aa1df6a72e97911561168cba64728c6d
 	DD	0b206230bH
 	DD	05002H
 xdata	ENDS
@@ -537,7 +563,11 @@ _TEXT	SEGMENT
 __formal$ = 80
 ?__empty_global_delete@@YAXPEAX@Z PROC			; __empty_global_delete, COMDAT
 ; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Main.cpp
+<<<<<<< HEAD
 ; Line 21
+=======
+; Line 10
+>>>>>>> c8724979aa1df6a72e97911561168cba64728c6d
 $LN4:
 	mov	QWORD PTR [rsp+8], rcx
 	push	rbp
@@ -558,7 +588,11 @@ __formal$ = 80
 __formal$ = 88
 ?__empty_global_delete@@YAXPEAX_K@Z PROC		; __empty_global_delete, COMDAT
 ; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Main.cpp
+<<<<<<< HEAD
 ; Line 21
+=======
+; Line 10
+>>>>>>> c8724979aa1df6a72e97911561168cba64728c6d
 $LN4:
 	mov	QWORD PTR [rsp+16], rdx
 	mov	QWORD PTR [rsp+8], rcx
@@ -580,7 +614,11 @@ __formal$ = 80
 __formal$ = 88
 ?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z PROC ; __empty_global_delete, COMDAT
 ; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Main.cpp
+<<<<<<< HEAD
 ; Line 21
+=======
+; Line 10
+>>>>>>> c8724979aa1df6a72e97911561168cba64728c6d
 $LN4:
 	mov	QWORD PTR [rsp+16], rdx
 	mov	QWORD PTR [rsp+8], rcx
@@ -603,7 +641,11 @@ __formal$ = 88
 __formal$ = 96
 ?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z PROC ; __empty_global_delete, COMDAT
 ; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Main.cpp
+<<<<<<< HEAD
 ; Line 21
+=======
+; Line 10
+>>>>>>> c8724979aa1df6a72e97911561168cba64728c6d
 $LN4:
 	mov	QWORD PTR [rsp+24], r8
 	mov	QWORD PTR [rsp+16], rdx
@@ -622,6 +664,7 @@ _TEXT	ENDS
 ; Function compile flags: /Odtp /ZI
 ;	COMDAT ?length@?$_Narrow_char_traits@DH@std@@SA_KQEBD@Z
 _TEXT	SEGMENT
+<<<<<<< HEAD
 _First$ = 80
 ?length@?$_Narrow_char_traits@DH@std@@SA_KQEBD@Z PROC	; std::_Narrow_char_traits<char,int>::length, COMDAT
 ; File C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\__msvc_string_view.hpp
@@ -704,8 +747,11 @@ _TEXT	SEGMENT
 a$ = 80
 b$ = 88
 ?Multily@@YAHHH@Z PROC					; Multily, COMDAT
+=======
+main	PROC						; COMDAT
+>>>>>>> c8724979aa1df6a72e97911561168cba64728c6d
 ; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Main.cpp
-; Line 4
+; Line 5
 $LN3:
 	mov	DWORD PTR [rsp+16], edx
 	mov	DWORD PTR [rsp+8], ecx
@@ -715,15 +761,32 @@ $LN3:
 	lea	rcx, OFFSET FLAT:__69CAA4C4_Main@cpp
 	call	__CheckForDebuggerJustMyCode
 	npad	1
+<<<<<<< HEAD
 ; Line 5
 	mov	eax, DWORD PTR a$[rbp]
 	imul	eax, DWORD PTR b$[rbp]
 ; Line 6
+=======
+; Line 6
+	call	?InitLog@@YAXXZ				; InitLog
+	npad	1
+; Line 7
+	lea	rcx, OFFSET FLAT:??_C@_0O@KLMCIIGF@Hello?0?5World?$CB@
+	call	?Log@@YAXPEBD@Z				; Log
+	npad	1
+; Line 8
+	mov	rcx, QWORD PTR __imp_?cin@std@@3V?$basic_istream@DU?$char_traits@D@std@@@1@A
+	call	QWORD PTR __imp_?get@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAHXZ
+	npad	1
+; Line 9
+	xor	eax, eax
+>>>>>>> c8724979aa1df6a72e97911561168cba64728c6d
 	lea	rsp, QWORD PTR [rbp+64]
 	pop	rbp
 	ret	0
 ?Multily@@YAHHH@Z ENDP					; Multily
 _TEXT	ENDS
+<<<<<<< HEAD
 ; Function compile flags: /Odtp /ZI
 ;	COMDAT ?MultiplyAndLog@@YAXHH@Z
 _TEXT	SEGMENT
@@ -1543,6 +1606,8 @@ $LN4:
 	ret	0
 ??$addressof@V?$basic_ostream@DU?$char_traits@D@std@@@std@@@std@@YAPEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z ENDP ; std::addressof<std::basic_ostream<char,std::char_traits<char> > >
 _TEXT	ENDS
+=======
+>>>>>>> c8724979aa1df6a72e97911561168cba64728c6d
 ; Function compile flags: /Odt
 ;	COMDAT __JustMyCode_Default
 _TEXT	SEGMENT
