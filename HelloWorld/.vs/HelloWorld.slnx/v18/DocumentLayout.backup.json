@@ -92,6 +92,34 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-27T16:39:24.5Z"
+<<<<<<< HEAD
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Main.cpp",
+              "RelativeDocumentMoniker": "HelloWorld\\Main.cpp",
+              "ToolTip": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Main.cpp",
+              "RelativeToolTip": "HelloWorld\\Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-25T18:23:11.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Log.cpp",
+              "DocumentMoniker": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Log.cpp",
+              "RelativeDocumentMoniker": "HelloWorld\\Log.cpp",
+              "ToolTip": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Log.cpp",
+              "RelativeToolTip": "HelloWorld\\Log.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-25T17:15:38.078Z"
+=======
+>>>>>>> c8724979aa1df6a72e97911561168cba64728c6d
             }
           ]
         }
