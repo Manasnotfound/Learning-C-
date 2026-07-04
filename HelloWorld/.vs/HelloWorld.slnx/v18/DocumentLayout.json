@@ -42,8 +42,12 @@
               "RelativeToolTip": "HelloWorld\\EndBrace.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+<<<<<<< HEAD
               "WhenOpened": "2026-06-29T20:13:43.011Z",
               "EditorCaption": ""
+=======
+              "WhenOpened": "2026-06-29T13:50:59.8Z"
+>>>>>>> 5c244564a7474ea3e123c3822a84d2dd7d51f848
             },
             {
               "$type": "Document",
@@ -55,8 +59,27 @@
               "RelativeToolTip": "HelloWorld\\Math.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+<<<<<<< HEAD
               "WhenOpened": "2026-06-29T20:13:43.033Z",
               "EditorCaption": ""
+=======
+              "WhenOpened": "2026-06-27T16:39:24.5Z"
+=======
+              "Title": "Log.cpp",
+              "DocumentMoniker": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Log.cpp",
+              "RelativeDocumentMoniker": "HelloWorld\\Log.cpp",
+              "ToolTip": "C:\\Users\\f!xcs\\Desktop\\C\u002B\u002B\\Learning-C-\\HelloWorld\\HelloWorld\\Log.cpp",
+              "RelativeToolTip": "HelloWorld\\Log.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+<<<<<<< HEAD
+              "WhenOpened": "2026-06-25T17:15:38.078Z"
+=======
+              "WhenOpened": "2026-06-25T17:15:38.078Z",
+              "EditorCaption": ""
+>>>>>>> c8724979aa1df6a72e97911561168cba64728c6d
+>>>>>>> 9549548fbc22725b8b4b330397f13b1932d1b79a
+>>>>>>> 5c244564a7474ea3e123c3822a84d2dd7d51f848
             },
             {
               "$type": "Document",
@@ -66,7 +89,19 @@
               "RelativeDocumentMoniker": "HelloWorld\\Main.cpp",
               "ToolTip": "C:\\DEV\\Cpp\\HelloWorld\\HelloWorld\\Main.cpp",
               "RelativeToolTip": "HelloWorld\\Main.cpp",
+<<<<<<< HEAD
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+=======
+<<<<<<< HEAD
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+=======
+<<<<<<< HEAD
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+>>>>>>> c8724979aa1df6a72e97911561168cba64728c6d
+>>>>>>> 9549548fbc22725b8b4b330397f13b1932d1b79a
+>>>>>>> 5c244564a7474ea3e123c3822a84d2dd7d51f848
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-29T20:13:43.073Z",
               "EditorCaption": ""

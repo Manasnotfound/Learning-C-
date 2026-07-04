@@ -1,7 +1,22 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+﻿  Main.cpp
+=======
+<<<<<<< HEAD
+﻿  HelloWorld.vcxproj -> C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\x64\Debug\HelloWorld.exe
+=======
+>>>>>>> 5c244564a7474ea3e123c3822a84d2dd7d51f848
 ﻿  Log.cpp
   Main.cpp
   Math.cpp
 C:\DEV\Cpp\HelloWorld\HelloWorld\Main.cpp(17,1): error C2059: syntax error: '<<'
   Generating Code...
+<<<<<<< HEAD
 C:\DEV\Cpp\HelloWorld\HelloWorld\Main.cpp(21,1): error C2059: syntax error: '=='
 C:\DEV\Cpp\HelloWorld\HelloWorld\Main.cpp(24,1): error C2059: syntax error: '>>'
+=======
+>>>>>>> 9549548fbc22725b8b4b330397f13b1932d1b79a
+  HelloWorld.vcxproj -> C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\x64\Debug\HelloWorld.exe
+>>>>>>> c8724979aa1df6a72e97911561168cba64728c6d
+>>>>>>> 5c244564a7474ea3e123c3822a84d2dd7d51f848
