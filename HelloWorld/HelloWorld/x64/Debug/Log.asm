@@ -11,8 +11,8 @@ _BSS	SEGMENT
 _Avx2WmemEnabledWeakValue DD 01H DUP (?)
 _BSS	ENDS
 msvcjmc	SEGMENT
-__45B1EE5B_Log@h DB 01H
-__151CD3BC_common@h DB 01H
+__2503E819_Log@h DB 01H
+__1537FF54_common@h DB 01H
 __5C2A3A1B_concurrencysal@h DB 01H
 __C0F69881_sal@h DB 01H
 __78278261_vadefs@h DB 01H
@@ -137,7 +137,7 @@ __24703A34___msvc_ostream@hpp DB 01H
 __C78AAA93_istream DB 01H
 __A45A9FA9_ostream DB 01H
 __0E8BEEE5_iostream DB 01H
-__6D92E97A_Log@cpp DB 01H
+__46BE017A_Log@cpp DB 01H
 msvcjmc	ENDS
 PUBLIC	?__empty_global_delete@@YAXPEAX@Z		; __empty_global_delete
 PUBLIC	?__empty_global_delete@@YAXPEAX_K@Z		; __empty_global_delete
@@ -511,14 +511,14 @@ xdata	ENDS
 _TEXT	SEGMENT
 __formal$ = 80
 ?__empty_global_delete@@YAXPEAX@Z PROC			; __empty_global_delete, COMDAT
-; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Log.cpp
+; File C:\DEV\Cpp\HelloWorld\HelloWorld\Log.cpp
 ; Line 17
 $LN4:
 	mov	QWORD PTR [rsp+8], rcx
 	push	rbp
 	sub	rsp, 96					; 00000060H
 	lea	rbp, QWORD PTR [rsp+32]
-	lea	rcx, OFFSET FLAT:__6D92E97A_Log@cpp
+	lea	rcx, OFFSET FLAT:__46BE017A_Log@cpp
 	call	__CheckForDebuggerJustMyCode
 	npad	1
 	lea	rsp, QWORD PTR [rbp+64]
@@ -532,7 +532,7 @@ _TEXT	SEGMENT
 __formal$ = 80
 __formal$ = 88
 ?__empty_global_delete@@YAXPEAX_K@Z PROC		; __empty_global_delete, COMDAT
-; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Log.cpp
+; File C:\DEV\Cpp\HelloWorld\HelloWorld\Log.cpp
 ; Line 17
 $LN4:
 	mov	QWORD PTR [rsp+16], rdx
@@ -540,7 +540,7 @@ $LN4:
 	push	rbp
 	sub	rsp, 96					; 00000060H
 	lea	rbp, QWORD PTR [rsp+32]
-	lea	rcx, OFFSET FLAT:__6D92E97A_Log@cpp
+	lea	rcx, OFFSET FLAT:__46BE017A_Log@cpp
 	call	__CheckForDebuggerJustMyCode
 	npad	1
 	lea	rsp, QWORD PTR [rbp+64]
@@ -554,7 +554,7 @@ _TEXT	SEGMENT
 __formal$ = 80
 __formal$ = 88
 ?__empty_global_delete@@YAXPEAXW4align_val_t@std@@@Z PROC ; __empty_global_delete, COMDAT
-; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Log.cpp
+; File C:\DEV\Cpp\HelloWorld\HelloWorld\Log.cpp
 ; Line 17
 $LN4:
 	mov	QWORD PTR [rsp+16], rdx
@@ -562,7 +562,7 @@ $LN4:
 	push	rbp
 	sub	rsp, 96					; 00000060H
 	lea	rbp, QWORD PTR [rsp+32]
-	lea	rcx, OFFSET FLAT:__6D92E97A_Log@cpp
+	lea	rcx, OFFSET FLAT:__46BE017A_Log@cpp
 	call	__CheckForDebuggerJustMyCode
 	npad	1
 	lea	rsp, QWORD PTR [rbp+64]
@@ -577,7 +577,7 @@ __formal$ = 80
 __formal$ = 88
 __formal$ = 96
 ?__empty_global_delete@@YAXPEAX_KW4align_val_t@std@@@Z PROC ; __empty_global_delete, COMDAT
-; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Log.cpp
+; File C:\DEV\Cpp\HelloWorld\HelloWorld\Log.cpp
 ; Line 17
 $LN4:
 	mov	QWORD PTR [rsp+24], r8
@@ -586,7 +586,7 @@ $LN4:
 	push	rbp
 	sub	rsp, 96					; 00000060H
 	lea	rbp, QWORD PTR [rsp+32]
-	lea	rcx, OFFSET FLAT:__6D92E97A_Log@cpp
+	lea	rcx, OFFSET FLAT:__46BE017A_Log@cpp
 	call	__CheckForDebuggerJustMyCode
 	npad	1
 	lea	rsp, QWORD PTR [rbp+64]
@@ -598,13 +598,13 @@ _TEXT	ENDS
 ;	COMDAT ?InitLog@@YAXXZ
 _TEXT	SEGMENT
 ?InitLog@@YAXXZ PROC					; InitLog, COMDAT
-; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Log.cpp
+; File C:\DEV\Cpp\HelloWorld\HelloWorld\Log.cpp
 ; Line 8
 $LN3:
 	push	rbp
 	sub	rsp, 96					; 00000060H
 	lea	rbp, QWORD PTR [rsp+32]
-	lea	rcx, OFFSET FLAT:__6D92E97A_Log@cpp
+	lea	rcx, OFFSET FLAT:__46BE017A_Log@cpp
 	call	__CheckForDebuggerJustMyCode
 	npad	1
 ; Line 9
@@ -623,14 +623,14 @@ _TEXT	SEGMENT
 tv71 = 64
 message$ = 96
 ?Log@@YAXPEBD@Z PROC					; Log, COMDAT
-; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Log.cpp
+; File C:\DEV\Cpp\HelloWorld\HelloWorld\Log.cpp
 ; Line 14
 $LN3:
 	mov	QWORD PTR [rsp+8], rcx
 	push	rbp
 	sub	rsp, 112				; 00000070H
 	lea	rbp, QWORD PTR [rsp+32]
-	lea	rcx, OFFSET FLAT:__6D92E97A_Log@cpp
+	lea	rcx, OFFSET FLAT:__46BE017A_Log@cpp
 	call	__CheckForDebuggerJustMyCode
 	npad	1
 ; Line 15

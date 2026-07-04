@@ -6,7 +6,7 @@ INCLUDELIB MSVCRTD
 INCLUDELIB OLDNAMES
 
 msvcjmc	SEGMENT
-__59C24021_Math@cpp DB 01H
+__59E96CC9_Math@cpp DB 01H
 msvcjmc	ENDS
 PUBLIC	?Log@@YAPEBDPEBD@Z				; Log
 PUBLIC	?Multiply@@YAHHH@Z				; Multiply
@@ -47,14 +47,14 @@ xdata	ENDS
 _TEXT	SEGMENT
 message$ = 80
 ?Log@@YAPEBDPEBD@Z PROC					; Log, COMDAT
-; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Math.cpp
+; File C:\DEV\Cpp\HelloWorld\HelloWorld\Math.cpp
 ; Line 2
 $LN3:
 	mov	QWORD PTR [rsp+8], rcx
 	push	rbp
 	sub	rsp, 96					; 00000060H
 	lea	rbp, QWORD PTR [rsp+32]
-	lea	rcx, OFFSET FLAT:__59C24021_Math@cpp
+	lea	rcx, OFFSET FLAT:__59E96CC9_Math@cpp
 	call	__CheckForDebuggerJustMyCode
 	npad	1
 ; Line 3
@@ -71,7 +71,7 @@ _TEXT	SEGMENT
 a$ = 80
 b$ = 88
 ?Multiply@@YAHHH@Z PROC					; Multiply, COMDAT
-; File C:\Users\f!xcs\Desktop\C++\Learning-C-\HelloWorld\HelloWorld\Math.cpp
+; File C:\DEV\Cpp\HelloWorld\HelloWorld\Math.cpp
 ; Line 7
 $LN3:
 	mov	DWORD PTR [rsp+16], edx
@@ -79,7 +79,7 @@ $LN3:
 	push	rbp
 	sub	rsp, 96					; 00000060H
 	lea	rbp, QWORD PTR [rsp+32]
-	lea	rcx, OFFSET FLAT:__59C24021_Math@cpp
+	lea	rcx, OFFSET FLAT:__59E96CC9_Math@cpp
 	call	__CheckForDebuggerJustMyCode
 	npad	1
 ; Line 8
